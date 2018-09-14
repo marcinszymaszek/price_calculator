@@ -1,0 +1,107 @@
+html, body {
+    margin: 0 auto;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.przycisk{ 
+    color: #ffffff; 
+    display: inline !important;
+    padding: 10px; 
+    border-radius:5px; 
+    background: #2f6e44;
+    width: 150px; 
+    cursor: pointer; 
+    text-align: center;
+}
+
+.przycisk:hover{ 
+    background: #265c38;
+}
+/* Typo */
+
+h1{ 
+    text-align: center;
+    font-size: 40px !important;
+    margin: 50px 0px;
+}
+p{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+h1{ 
+    font-size: 35px !important;
+}
+p{
+    font-size: 19px;
+}
+}
+
+@media only screen and (max-width: 768px){
+h1{ 
+    font-size: 30px !important;
+}
+p{
+    font-size: 18px;
+}
+}
+
+
+/* Kontenery */
+
+article{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.container-general{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 1024px){
+    .container-general{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container-general{
+        width: 80%;
+    }
+}
+
+#kosztorys{
+    display: block;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #cccccc;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 1024px){
+    #kosztorys{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #kosztorys{
+        width: 100%;
+    }
+}
+
+#wynik{
+    margin-top: 20px;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}

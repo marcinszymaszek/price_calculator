@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--jQuery -->
+        <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+
+        <!--Style -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <main>
+
+            <div class="container-general">
+
+                <h1>Obliczenie ceny za artykuł </h1>
+
+                <article>
+                    <p>Wycena obejmuje profesjonalny artykuł tematyczny na Twoją stronę, 
+                        który pisany jest przez fachowego autora tekstów z danej branży.
+                        Niewątpliwie artykuł pozytywnie wpłynie na optymalizację SEO Twojej strony.
+                        Cena za 1000 znaków wynosi 50zł. Zapraszam do obliczenia.</p>
+                </article>
+
+                <div class="przycisk" id="pokazukryjkosztorys">Pokaż/Uryj kosztorys</div>
+
+                <div id="kosztorys">
+
+                    <form action="#" method="get" id="formularz"> 
+
+                        <div>Ilość artykułów</div>
+                        <select name="iloscart" id="iloscart">
+                            <option value="1">1 art</option>
+                            <option value="2">2 art</option>
+                            <option value="3">3 art</option>
+                            <option value="4">4 art</option>
+                            <option value="5">5 art</option>
+                        </select>
+
+                        <br/><br/>
+
+                        <div>Ilość znaków</div>
+                        <select name="znaki" id="znaki">
+                            <option value="1000">1000</option>
+                            <option value="2000">2000</option>
+                            <option value="3000">3000</option>
+                            <option value="4000">4000</option>
+                            <option value="5000">5000</option>
+                        </select>
+
+                        <br/><br/><br/>
+
+                        <input type="button" value="usuń wynik" id="usun"/>
+                        <input type="button" value="policz na ekranie" id="policz"/>
+
+                    </form>
+
+                    <br/><br/>
+
+                    <div id="wynik"></div>
+
+                </div>
+
+            </div> 
+
+        </main>
+
+        <!-- Scripts -->
+        <script src="js/Calculate.js"></script>
+        <script src="js/ShowHideContent.js"></script> 
+    </body>
+</html>
